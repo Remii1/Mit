@@ -1,0 +1,22 @@
+table{
+    height: 500px;
+    width: 600px;
+}
+table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th , td{
+    border-bottom: black;
+}
+th{
+    background-color: green;
+}
+
+th{
+    color: black;
+}
+tr:nth-child(second){
+    background-color: darkcya
+}
+

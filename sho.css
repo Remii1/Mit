@@ -1,0 +1,29 @@
+form{
+    background-color: #ffa6fc;
+padding: 80px;
+    margin: 80px;
+
+
+
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 4px 3px 5px 5px black;
+    height: 30px;
+    border-radius: 10px;
+}
+input[type=submit]{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    background-color: green;
+}
+input[type=submit]:hover{
+background-color: navy;
+}
+body{
+    background-image: url("images/image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,21 @@
+form{
+    background-color: burlywood;
+   padding: 40px;
+    margin: 50px;
+
+}
+label{
+    float: left;
+    text-align: left;
+    width: 100px;
+
+}
+input{
+    float: left;
+
+}
+legend{
+    font-size: large;
+    font-weight: bold;
+
+}

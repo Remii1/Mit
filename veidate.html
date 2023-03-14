@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>validation</title>
+  <link rel="stylesheet" href="veidate.css">
+    <script type="text/javascript">
+
+        function validate(){
+            var name=document.getElementById("Name");
+            var subject=document.getElementById("Subject");
+            var phone=document.getElementById("Phone")
+            var email=document.getElementById("Email")
+            var message=document.getElementById("message")
+
+
+
+            if(name.value==""||subject.value==""||phone.value==""||email.value==""||message.value=="0"){
+                alert("no blank values allowed");
+                return false
+            }
+            else{
+                return true
+            }
+
+        }
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+<form onsubmit="return validate()" action="morning.html">
+   <legend>CONTACT US</legend>
+  <input type="text" id="Name" placeholder="Name"><br><br>
+  <input type="text" id="Subject" PLACEHOLDER="Subject"><br><br>
+  <input type="text" id="Phone" placeholder="Phone"><br><br>
+  <input type="email" id="Email" placeholder="Email"><br><br>
+  <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea><br><br><br>
+    <input type="submit">
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>

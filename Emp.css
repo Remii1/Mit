@@ -1,0 +1,24 @@
+table{
+    height: 300px;
+    width: 100%;
+
+}
+table{
+    border: 1px;solid-color: yellow;
+
+}
+th , td{
+    border-bottom: 1px solid black;
+}
+th{
+    background-color: crimson;
+}
+heading{
+    color: gold;
+}
+tr:hover{
+    background-color: yellow;
+   }
+   tr:nth-child(even){
+       background: #ffa6fc;
+   }

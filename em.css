@@ -1,0 +1,17 @@
+table{
+    height: 300px;
+    width: 1000px;
+}
+table{
+    border:3px solid green;
+    border-collapse: separate;
+}
+th , td{
+    border: 3px solid greenyellow;
+}
+th{
+    background-color: darkorange;
+}
+.col1{
+    background-color: darkorange;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: purple;
+}
+form{
+    padding-top: 300px;
+    padding-bottom: 600%px;
+    padding-right: 100px;
+    padding-left: 600px;
+    margin: 3px;
+}
+input[type=subscribe]{
+    background-color: deepskyblue;
+
+}

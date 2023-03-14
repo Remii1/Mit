@@ -1,0 +1,29 @@
+form{
+    padding: 100px;
+    margin-left:550px;
+    margin-top: 50px;
+    margin-right: 550px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    box-shadow: yellow;
+
+
+}
+body{
+    background-color: #f1cc06;
+}
+input[type=text]{
+    border-radius: 20px;
+
+}
+input[type=submit]{
+    background-color: #ffb700;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+
+
+}
+input[type=text], input[type=email],textarea{
+    width: 200px;
+}
